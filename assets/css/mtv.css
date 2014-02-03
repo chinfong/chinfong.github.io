@@ -87,6 +87,16 @@ background: url(../img/banner_muisc.png) top center no-repeat;
 background-color: #404040;
 height: 600px;
 }
+.newsheader {
+background: url(../img/news_main1.png) top center no-repeat;
+background-color: #404040;
+height: 600px;
+}
+.newsheaderphone {
+background: url(../img/news_main_phone.png) top center no-repeat;
+background-color: #404040;
+height: 600px;
+}
 .banner1 {
 z-index: 100;
 position: absolute;
@@ -312,9 +322,9 @@ border-color: #ffa901;
 }
 .btn {
 display: inline-block;
-padding: 13px 12px;
+padding: 7px 12px;
 margin-bottom: 0;
-font-size: 20px;
+font-size: 14px;
 font-weight: normal;
 line-height: 1.428571429;
 text-align: center;
@@ -464,7 +474,12 @@ font-weight: bold;
 left: 8%;
 top: 1%;
 }
-
+.top2 {
+margin-top: -50px;
+}
+.move_right {
+left: 2%;
+}
 /* Text/img postion 2
 -------------------------------------------------- */
 .text_postion2 {
@@ -1302,8 +1317,21 @@ font-size: 30px;
 text-shadow: black 0.1em 0.1em 0.2em;
 color: white;
 text-align: center;
+margin-right: 20%;
 }
+.header_news_lg {
+font-size: 47px;
+text-shadow: black 0.1em 0.1em 0.2em;
+color: white;
+padding-top: 6%;
+padding-left: 7%;
+}
+.header_news_p {
+font-size: 30px;
+text-shadow: black 0.1em 0.1em 0.2em;
+color: white;
 
+}
 .text_musicnews1 {
 z-index: 100;
 position: absolute;
