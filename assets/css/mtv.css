@@ -1407,6 +1407,9 @@ top: 85%;
 .tiptop {
 padding-top:20px;
 }
+.tipbot {
+padding-bottom:20px;
+}
 .text_musicnews3 {
 z-index: 100;
 position: absolute;
