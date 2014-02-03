@@ -283,6 +283,27 @@ margin-bottom: 10px;
 margin-top: 10px;
 padding-left: 15px;
 }
+#clips {
+background: #DD2AF5;
+width: 24%;
+color: #fff;
+overflow: hidden;
+font-size: 30px;
+position: relative;
+margin-bottom: 10px;
+padding-left: 15px;
+}
+#clips2 {
+background: #DD2AF5;
+width: 85%;
+color: #fff;
+overflow: hidden;
+font-size: 30px;
+position: relative;
+margin-bottom: 10px;
+margin-top: 10px;
+padding-left: 15px;
+}
 #news {
 background: #f8ea06;
 width: 24%;
