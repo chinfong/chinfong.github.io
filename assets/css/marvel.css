@@ -205,8 +205,35 @@ position: absolute;
 left: 14%;
 top: 70%;
 }
+.bannerpad {
+z-index: 100;
+position: absolute;
+left: 4%;
+top: 68%;
+}
+.bannerpad2 {
+z-index: 100;
+position: absolute;
+left: 4%;
+top: 72%;
+}
+.bannerphone {
+z-index: 100;
+position: absolute;
+left: 6%;
+top: 65%;
+}
+.bannerphone2 {
+z-index: 100;
+position: absolute;
+left: 6%;
+top: 65%;
+}
 .top {
 padding-top: 50px;
+}
+.top_phone{
+padding-top: 10px;
 }
 /* navbar
 -------------------------------------------------- */
