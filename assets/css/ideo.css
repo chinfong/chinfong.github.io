@@ -176,6 +176,21 @@ overflow: hidden;
 height: 750px;
 }
 
+.picture2 {
+background-image: url("../img/ideo2.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed!important;
+background-position: center bottom !important;
+right: 0px;
+display: block;
+margin: 0px auto 0;
+width: 100%;
+position: relative;
+padding-top: 1px;
+overflow: hidden;
+}
+
 .picturepaper {
 background-image: url("../img/papertexture.png");
 background-repeat: no-repeat;
