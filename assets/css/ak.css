@@ -185,7 +185,25 @@ background-color: #494848;
 padding-top: 4%;
 padding-bottom: 5%;
 }
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
 
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
 .move {
 padding-top: 1%;
 padding-bottom: 1%;
@@ -374,6 +392,40 @@ margin-right: auto;
 
 .center {
 text-align: center;
+}
+
+#css-image-swap-1 {
+width: 150px;
+height: 174px;
+background: url(../img/b_email2.png);
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#css-image-swap-1 img:hover {
+opacity: 0;
+}
+#css-image-swap-2 {
+width: 150px;
+height: 174px;
+background: url(../img/b_phone2.jpg);
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#css-image-swap-2 img:hover {
+opacity: 0;
+}
+#css-image-swap-3 {
+width: 150px;
+height: 174px;
+background: url(../img/b_linkedin2.png);
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+#css-image-swap-3 img:hover {
+opacity: 0;
 }
 
 .btn-danger {
